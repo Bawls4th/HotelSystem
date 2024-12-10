@@ -1,0 +1,10 @@
+Guest ID: c7429308-1793-4a49-8a18-2fc6c98f3e6d
+First Name: Adam
+Middle Name: Richard
+Last Name: Sandler
+Birth Date: 9/9/1966
+Age: 58
+Ethnicity: American
+Email: adamsand@gmail.com
+Contact No: 0938-743-6568
+Time Registered: 12/10/2024

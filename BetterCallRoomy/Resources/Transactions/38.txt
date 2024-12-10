@@ -1,0 +1,6 @@
+Transaction ID: 38
+Reservation ID: 5
+Room Charge: ₱680.00
+Balance: ₱0.00
+Amount Paid: ₱10,000.00
+Payment Method: Cash

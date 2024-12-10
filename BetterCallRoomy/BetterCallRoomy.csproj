@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <IsPublishable>True</IsPublishable>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <IsPublishable>True</IsPublishable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Properties\DataSources\**" />
+    <Compile Remove="Resources\Guest Pictures\**" />
+    <Compile Remove="Resources\GuestPhotos\**" />
+    <Compile Remove="Resources\RoomPics\**" />
+    <EmbeddedResource Remove="Properties\DataSources\**" />
+    <EmbeddedResource Remove="Resources\Guest Pictures\**" />
+    <EmbeddedResource Remove="Resources\GuestPhotos\**" />
+    <EmbeddedResource Remove="Resources\RoomPics\**" />
+    <None Remove="Properties\DataSources\**" />
+    <None Remove="Resources\Guest Pictures\**" />
+    <None Remove="Resources\GuestPhotos\**" />
+    <None Remove="Resources\RoomPics\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HotelBusinessLogic\HotelBusinessLogic.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\GuestInfos\" />
+    <Folder Include="Resources\Transactions\" />
+    <Folder Include="Resources\Rooms Pictures\" />
+  </ItemGroup>
+
+</Project>

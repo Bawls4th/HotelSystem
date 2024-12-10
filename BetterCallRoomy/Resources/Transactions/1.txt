@@ -1,0 +1,8 @@
+Reservation ID: 1
+Guest: Ryan Thomas Gosling
+Room No: 101
+Servicor: Don Salam Alaikum Pollo
+Check In: 11/27/2024 2:30:00 PM
+Check Out: 12/2/2024 2:30:00 PM
+Date Issued: 11/27/2024 2:30:00 PM
+Price: 3199.98

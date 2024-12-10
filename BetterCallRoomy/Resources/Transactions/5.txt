@@ -1,0 +1,8 @@
+Reservation ID: 5
+Guest: Robert Doughlas Pattinson
+Room No: 102
+Servicor: Alfred Thaddeus Crane Pennyworth
+Check In: 12/7/2024 3:36:44 PM
+Check Out: 12/7/2024 3:36:44 PM
+Date Issued: 12/7/2024 3:36:44 PM
+Price: 7699.98

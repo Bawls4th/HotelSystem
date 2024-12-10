@@ -1,0 +1,8 @@
+Reservation ID: 3
+Guest: Jack The Narrator
+Room No: 103
+Servicor: Tyler Joe Durden
+Check In: 12/1/2024 7:13:59 PM
+Check Out: 12/12/2024 7:13:59 PM
+Date Issued: 12/1/2024 7:13:59 PM
+Price: 9699.99

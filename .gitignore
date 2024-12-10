@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/BetterCallRoomy/obj
+/DBHotelManagement/.vs/DBHotelManagement
+/DBHotelManagement/DBHotelManagement/obj/Debug
+/HotelBusinessLogic/bin/Debug/net8.0-windows
+/HotelBusinessLogic/obj
+/HotelModel/bin/Debug/net8.0-windows
+/HotelModel/obj
+/BetterCallRoomy/bin/Debug/net8.0-windows
+/DBHotelManagement/obj/Debug
+/DBHotelManagement/bin/Debug

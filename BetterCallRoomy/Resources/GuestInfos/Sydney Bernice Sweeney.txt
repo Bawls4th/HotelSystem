@@ -1,0 +1,10 @@
+Guest ID: 3ea64912-1ca6-4c9e-acbe-f704522df9aa
+First Name: Sydney
+Middle Name: Bernice
+Last Name: Sweeney
+Birth Date: 9/12/1997
+Age: 27
+Ethnicity: American
+Email: sweeney27@gmail.com
+Contact No: 0982-367-8164
+Time Registered: 12/10/2024
